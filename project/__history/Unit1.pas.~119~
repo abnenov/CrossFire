@@ -51,7 +51,7 @@ var
   imgTimers: array [0 .. 5, 0 .. 6] of integer;
   shipX, shipY: integer;
   moveLeft, moveRight, moveUp, moveDown: Char;
-  shotLeft, shotRight, shotUp, shotDown,moveStop: Char;
+  shotLeft, shotRight, shotUp, shotDown: Char;
   lastMoveKey, lastShotKey: Char;
 
 implementation
@@ -71,7 +71,6 @@ begin
   shotRight := 'l';
   shotUp := 'i';
   shotDown := 'k';
-  moveStop:=chr(32);
   for row := 0 to 5 do
   begin
     for column := 0 to 6 do
@@ -108,7 +107,7 @@ begin
     end;
   end;
   // (Image1.Picture.Graphic as TGIFImage).Animate := True;
-  shipX := 664;
+  shipX := 974;
   shipY := 810;
   Timer1.Enabled := true;
   Timer2.Enabled := true;
@@ -131,10 +130,6 @@ begin
   if (Key = moveDown) then
   begin
     lastMoveKey := moveDown;
-  end;
-  if (Key = moveStop) then
-  begin
-    lastMoveKey := moveStop;
   end;
 end;
 
@@ -187,7 +182,7 @@ begin
   end;
   Ship.Left := shipX;
   Ship.Top := shipY;
-  Form1.Caption := 'X=' + inttostr(shipX) + ' Y=' + inttostr(shipY);
+  form1.Caption:='X='+inttostr(shipX)+' Y='+inttostr(shipY);
 end;
 
 end.

@@ -14,10 +14,9 @@ object Form1: TForm1
   OldCreateOrder = False
   Visible = True
   OnCreate = FormCreate
-  OnKeyPress = FormKeyPress
   PixelsPerInch = 96
   TextHeight = 13
-  object Ship: TImage
+  object Image1: TImage
     Left = 461
     Top = 518
     Width = 55
@@ -16177,8 +16176,7 @@ object Form1: TForm1
     Top = 80
   end
   object Timer2: TTimer
-    Enabled = False
-    Interval = 1
+    Interval = 10
     OnTimer = Timer2Timer
     Left = 352
     Top = 88

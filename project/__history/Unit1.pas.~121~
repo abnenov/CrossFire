@@ -71,7 +71,7 @@ begin
   shotRight := 'l';
   shotUp := 'i';
   shotDown := 'k';
-  moveStop:=chr(32);
+  moveStop=VK_SPACE;
   for row := 0 to 5 do
   begin
     for column := 0 to 6 do
@@ -108,7 +108,7 @@ begin
     end;
   end;
   // (Image1.Picture.Graphic as TGIFImage).Animate := True;
-  shipX := 664;
+  shipX := 665;
   shipY := 810;
   Timer1.Enabled := true;
   Timer2.Enabled := true;

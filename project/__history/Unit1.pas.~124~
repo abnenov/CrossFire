@@ -108,7 +108,7 @@ begin
     end;
   end;
   // (Image1.Picture.Graphic as TGIFImage).Animate := True;
-  shipX := 664;
+  shipX := 665;
   shipY := 810;
   Timer1.Enabled := true;
   Timer2.Enabled := true;

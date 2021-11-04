@@ -14,10 +14,9 @@ object Form1: TForm1
   OldCreateOrder = False
   Visible = True
   OnCreate = FormCreate
-  OnKeyPress = FormKeyPress
   PixelsPerInch = 96
   TextHeight = 13
-  object Ship: TImage
+  object Image1: TImage
     Left = 461
     Top = 518
     Width = 55
@@ -16066,108 +16065,90 @@ object Form1: TForm1
     Top = 134
     Width = 111
     Height = 48
-    ParentCustomHint = False
     Caption = 'Score'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clSilver
+    Font.Color = clWhite
     Font.Height = -40
     Font.Name = 'System'
     Font.Style = []
     ParentColor = False
     ParentFont = False
-    ParentShowHint = False
-    ShowHint = False
   end
   object Label2: TLabel
     Left = 946
     Top = 202
     Width = 144
     Height = 48
-    ParentCustomHint = False
     Caption = '000000'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clSilver
+    Font.Color = clWhite
     Font.Height = -40
     Font.Name = 'System'
     Font.Style = []
     ParentColor = False
     ParentFont = False
-    ParentShowHint = False
-    ShowHint = False
   end
   object Label3: TLabel
     Left = 939
     Top = 389
     Width = 153
     Height = 48
-    ParentCustomHint = False
     Caption = 'HiScore'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clSilver
+    Font.Color = clWhite
     Font.Height = -40
     Font.Name = 'System'
     Font.Style = []
     ParentColor = False
     ParentFont = False
-    ParentShowHint = False
-    ShowHint = False
   end
   object Label4: TLabel
     Left = 952
     Top = 457
     Width = 144
     Height = 48
-    ParentCustomHint = False
     Caption = '000000'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clSilver
+    Font.Color = clWhite
     Font.Height = -40
     Font.Name = 'System'
     Font.Style = []
     ParentColor = False
     ParentFont = False
-    ParentShowHint = False
-    ShowHint = False
   end
   object Label5: TLabel
     Left = 960
     Top = 645
     Width = 111
     Height = 48
-    ParentCustomHint = False
     Caption = 'Ships'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clSilver
+    Font.Color = clWhite
     Font.Height = -40
     Font.Name = 'System'
     Font.Style = []
     ParentColor = False
     ParentFont = False
-    ParentShowHint = False
-    ShowHint = False
   end
   object Label6: TLabel
     Left = 993
     Top = 713
     Width = 48
     Height = 48
-    ParentCustomHint = False
     Caption = '00'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clSilver
+    Font.Color = clWhite
     Font.Height = -40
     Font.Name = 'System'
     Font.Style = []
     ParentColor = False
     ParentFont = False
-    ParentShowHint = False
-    ShowHint = False
   end
   object Timer1: TTimer
     Enabled = False
@@ -16175,12 +16156,5 @@ object Form1: TForm1
     OnTimer = Timer1Timer
     Left = 296
     Top = 80
-  end
-  object Timer2: TTimer
-    Enabled = False
-    Interval = 1
-    OnTimer = Timer2Timer
-    Left = 352
-    Top = 88
   end
 end

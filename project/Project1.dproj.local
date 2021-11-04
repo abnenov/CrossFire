@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.925,C:\Users\ANenov\Documents\CrossFire\project\Unit1.dfm=C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.925,C:\Users\ANenov\Documents\CrossFire\project\Unit1.pas=C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.036,C:\Users\ANenov\Documents\CrossFire\project\Project1.dproj=C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.200,=C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.925,C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\ANenov\Documents\CrossFire\project\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.925,C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\ANenov\Documents\CrossFire\project\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.036,C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\ANenov\Documents\CrossFire\project\Project1.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.131,=C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.496,=C:\Users\ANenov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
   </Transactions>
