@@ -44,8 +44,8 @@ Const
   endLeft = 175;
   endRight = 975;
   endUp = 166;
-  endDown = 806;
-  moveStep = 10;
+  endDown = 810;
+  moveStep = 3;
 
 var
   Form1: TForm1;
@@ -83,10 +83,10 @@ begin
   verticalCorridors[4] := 815;
   verticalCorridors[5] := 975;
   horizontalCorridors[0] := 166;
-  horizontalCorridors[1] := 326;
-  horizontalCorridors[2] := 486;
-  horizontalCorridors[3] := 646;
-  horizontalCorridors[4] := 806;
+  horizontalCorridors[1] := 327;
+  horizontalCorridors[2] := 488;
+  horizontalCorridors[3] := 649;
+  horizontalCorridors[4] := 810;
   for row := 0 to 5 do
   begin
     for column := 0 to 6 do

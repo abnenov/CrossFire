@@ -44,7 +44,7 @@ Const
   endLeft = 175;
   endRight = 975;
   endUp = 166;
-  endDown = 806;
+  endDown = 810;
   moveStep = 10;
 
 var

@@ -44,8 +44,8 @@ Const
   endLeft = 175;
   endRight = 975;
   endUp = 166;
-  endDown = 806;
-  moveStep = 10;
+  endDown = 810;
+  moveStep = 5;
 
 var
   Form1: TForm1;

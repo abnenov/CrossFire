@@ -16157,7 +16157,7 @@ object Form1: TForm1
     Width = 48
     Height = 48
     ParentCustomHint = False
-    Caption = '03'
+    Caption = '00'
     Color = clBlack
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clSilver
